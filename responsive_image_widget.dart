@@ -26,8 +26,8 @@ class ResponsiveImage extends StatelessWidget {
         (imageDesignWidth / screenDesignWidth) * screenWidth;
 
     final clampedWidth = responsiveWidth.clamp(
-      minWidth ?? imageDesignWidth * 0.5,
-      maxWidth ?? imageDesignWidth * 1.5,
+      minWidth ?? imageDesignWidth * 0.65,
+      maxWidth ?? imageDesignWidth * 1.39,
     );
 
     return SizedBox(
